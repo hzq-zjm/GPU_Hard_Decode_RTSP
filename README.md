@@ -1,2 +1,2 @@
 # GPU_Hard_Decode_RTSP
-为解决多路监控视频流cpu高占用率问题，利用ffmpeg及cudacuvid解码Rtsp流，再在GPU上
+为解决多路监控视频流cpu高占用率问题，利用ffmpeg及cuda-cuvid解码Rtsp流
