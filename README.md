@@ -4,5 +4,5 @@
   1.NVIDIA_CUDA-9.0_Samples/3_Imaging/cudaDecodeGL  
   2.https://blog.csdn.net/wanghualin033/article/details/79829069?utm_medium=distribute.pc_relevant.none-task-blog-title-3&spm=1001.2101.3001.4242  
   3.https://www.jianshu.com/p/9d880ed5bdc4
- #2021/2/7
+# 2021/2/7
   今天发现opencv4.0+已经支持了，无语！
