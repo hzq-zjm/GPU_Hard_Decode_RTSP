@@ -23,7 +23,8 @@ int main(int argc, char* argv[])
 		if (decod.deQueueFrame(&bgraPtr, &width, &height, &timestamp)) {
 			//std::cout<<timestamp<<std::endl;
 			cv::Mat frame(height, width, CV_8UC4);
-			frame.data = bgraPtr;
+			memcpy(frame.data, bgraPtr, height * width * 4 * sizeof(unsigned char));
+			//frame.data = bgraPtr;
 			cv::imshow("video", frame);
 			cv::waitKey(30);
 			frame.release();
